@@ -32,7 +32,7 @@ function nextBeach3() {
     beachCommands4.setAttribute("visible", "true")
     var beachCommands3 = document.getElementById("beach3")
     beachCommands3.setAttribute("visible", "false")
-// }
+}
 
 // function nextBeach4() {
 //     var changeBeach4 = document.getElementById("background")
