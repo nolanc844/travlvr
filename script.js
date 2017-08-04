@@ -72,26 +72,26 @@ function nextMonument1() {
 //     monumentCommands2.setAttribute("visible", "false")
 // }
 
-function changeToParks() {
-    var parkChange = document.getElementById("background");
-    parkChange.setAttribute("src", "#redwood");
-    var homeToPlace = document.getElementById("homePage")
-    homeToPlace.setAttribute("visible", "false")
-    var placeChange = document.getElementById("changeToBeach2");
-    placeChange.setAttribute("visible", "true");
-    var backToHome = document.getElementById("backToHome");
-    backToHome.setAttribute("visible", "true");
-}
+// function changeToParks() {
+//     var parkChange = document.getElementById("background");
+//     parkChange.setAttribute("src", "#redwood");
+//     var homeToPlace = document.getElementById("homePage")
+//     homeToPlace.setAttribute("visible", "false")
+//     var placeChange = document.getElementById("changeToBeach2");
+//     placeChange.setAttribute("visible", "true");
+//     var backToHome = document.getElementById("backToHome");
+//     backToHome.setAttribute("visible", "true");
+// }
 
-function nextPark1(){
-    var changePark1 = document.getElementById("background")
-    changePark1.setAttribute("src" , "#kings")
-    var homeToPlace = document.getElementById("homePage")
-    homeToPlace.setAttribute("visible" , "true")
-    var parkCommands1.setAttribute("park1")
-    parkCommands1.setAttribute("visible" , "false")
+// function nextPark1(){
+//     var changePark1 = document.getElementById("background")
+//     changePark1.setAttribute("src" , "#kings")
+//     var homeToPlace = document.getElementById("homePage")
+//     homeToPlace.setAttribute("visible" , "true")
+//     var parkCommands1.setAttribute("park1")
+//     parkCommands1.setAttribute("visible" , "false")
 
-}
+// }
 
 function placeToHome() {
     var backgroundChange = document.getElementById("background");
